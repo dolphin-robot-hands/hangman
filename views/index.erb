@@ -1,0 +1,21 @@
+<html>
+  <head></head>
+  <body>
+      <h1>
+        Hang Man
+      </h1>
+    </h2 font-size = "40px">
+      <%= @board %>
+    </h2>
+      <p font-size = "40px">
+      <%= @message %>
+      </p>
+      <p>
+      <form method = "POST" action= "/guess">
+          enter guess
+        <input type='int' name='guess' />
+        <input type='submit' name='Guess' />
+      </form>
+      </p>
+  </body>
+</html>
